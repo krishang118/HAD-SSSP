@@ -39,7 +39,7 @@ A novel high-performance distributed graph algorithm that combines multi-level h
 
 ## Research Paper
 
-For detailed methodology and mathematical formulations, you may refer to the uploaded research paper `Research Paper.pdf`.
+For detailed methodology you may refer to the uploaded research paper `Research Paper.pdf`.
 
 ## Contributing
 
