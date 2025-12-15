@@ -26,7 +26,7 @@ A novel high-performance distributed graph algorithm that combines multi-level h
 - Batch message aggregation reduces MPI overhead
 - Parallel edge relaxation for high-degree nodes (OpenMP)
 
-### Supported datasets (automatically detected):
+### Supported Datasets (automatically detected):
 
 - `random_citation_graph.txt` - Citation Graph (100K nodes, 250K edges)
 - `roadNet-CA.txt` - California Road Network (1.9M nodes, 2.7M edges)
