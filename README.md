@@ -14,10 +14,10 @@ A novel high-performance distributed graph algorithm that combines multi-level h
 
 ### Four-Level Hierarchy
 
-1. L0 (Base): Original graph nodes
-2. L1 (Local): BFS-based local clusters (20-50 nodes)
-3. L2 (Regional): Spatial hash clustering of L1 clusters
-4. L3 (Supernodes): Coarse-grained aggregation for O(1) distance approximation
+- L0 (Base): Original graph nodes
+- L1 (Local): BFS-based local clusters (20-50 nodes)
+- L2 (Regional): Spatial hash clustering of L1 clusters
+- L3 (Supernodes): Coarse-grained aggregation for O(1) distance approximation
 
 ### Owner-Push Message Passing
 
@@ -29,7 +29,7 @@ A novel high-performance distributed graph algorithm that combines multi-level h
 ### Supported datasets (automatically detected):
 
 - `random_citation_graph.txt` - Citation Graph (100K nodes, 250K edges)
-- `roadNet-CA.txt` - CaliforniaRoad Network (1.9M nodes, 2.7M edges)
+- `roadNet-CA.txt` - California Road Network (1.9M nodes, 2.7M edges)
 - `graph500-scale20-ef16_adjedges.txt` - Graph500 (1M nodes, 16.8M edges)
 
 ## How to Run
